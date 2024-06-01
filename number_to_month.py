@@ -1,4 +1,6 @@
 def number_to_month(month):
+    if month == 0:
+        return 'error'
     if month == 1:
         return 'enero'
     elif month == 2:

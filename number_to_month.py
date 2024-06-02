@@ -3,17 +3,17 @@ def number_to_month(month):
         return 'error'
     if month == 1:
         return 'enero'
-    elif month == 2:
+    if month == 2:
         return 'febrero'
-    elif month == 3:
+    if month == 3:
         return 'marzo'
-    elif month == 4:
+    if month == 4:
         return 'abril'
-    elif month == 5:
+    if month == 5:
         return 'mayo'
-    elif month == 6:
+    if month == 6:
         return 'junio'
-    elif month == 7:
+    if month == 7:
         return 'julio'
     elif month == 8:
         return 'agosto'
@@ -27,4 +27,3 @@ def number_to_month(month):
         return 'diciembre'
     elif month >= 13:
         return 'error'
-    

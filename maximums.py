@@ -1,8 +1,11 @@
 def max_of_two(x, y):
     if x > y:
         return x
-    else:
+    elif y > x:
         return y
+    else:
+        return 0
+
 
 def max_of_three(x, y, z):
     if x > y > z:
@@ -11,3 +14,5 @@ def max_of_three(x, y, z):
         return y
     elif z > x > y:
         return z
+    else:
+        return 0

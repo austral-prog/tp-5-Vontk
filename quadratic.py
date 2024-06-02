@@ -23,7 +23,6 @@ def to_string(a, b, c):
     if a == 0 and b == 0:
         return f"f(x) = {c}"
     return f"f(x) = {a} * X^2 + {b} * X + {c}"
-print(to_string(0, 0, 5) ) # Retorna: "f(x) = 5"
 
 
 def derivation(a, b, c):
